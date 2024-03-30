@@ -1,0 +1,8 @@
+[31mCMake Error at cmake_install.cmake:251 (file):
+  file INSTALL cannot copy file
+  "/home/sudhindra/aruco_ws/build/custom_interfaces/ament_cmake_python/custom_interfaces/custom_interfaces.egg-info/SOURCES.txt"
+  to
+  "/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt":
+  No such file or directory.
+
+[0m

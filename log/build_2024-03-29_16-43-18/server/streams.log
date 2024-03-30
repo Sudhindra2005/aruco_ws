@@ -1,0 +1,21 @@
+[2.755s] Invoking command in '/home/sudhindra/aruco_ws/src/server': PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed
+[3.316s] running egg_info
+[3.316s] writing ../../build/server/server.egg-info/PKG-INFO
+[3.317s] writing dependency_links to ../../build/server/server.egg-info/dependency_links.txt
+[3.318s] writing entry points to ../../build/server/server.egg-info/entry_points.txt
+[3.318s] writing requirements to ../../build/server/server.egg-info/requires.txt
+[3.318s] writing top-level names to ../../build/server/server.egg-info/top_level.txt
+[3.321s] reading manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[3.323s] writing manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[3.323s] running build
+[3.324s] running build_py
+[3.324s] running install
+[3.324s] running install_lib
+[3.327s] running install_data
+[3.329s] running install_egg_info
+[3.332s] removing '/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.333s] Copying ../../build/server/server.egg-info to /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info
+[3.334s] running install_scripts
+[3.376s] Installing server_executable script to /home/sudhindra/aruco_ws/install/server/lib/server
+[3.377s] writing list of installed files to '/home/sudhindra/aruco_ws/build/server/install.log'
+[3.540s] Invoked command in '/home/sudhindra/aruco_ws/src/server' returned '0': PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed

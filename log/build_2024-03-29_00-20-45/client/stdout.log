@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/client/client.egg-info
+writing ../../build/client/client.egg-info/PKG-INFO
+writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+writing entry points to ../../build/client/client.egg-info/entry_points.txt
+writing requirements to ../../build/client/client.egg-info/requires.txt
+writing top-level names to ../../build/client/client.egg-info/top_level.txt
+writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sudhindra/aruco_ws/build/client/build
+creating /home/sudhindra/aruco_ws/build/client/build/lib
+creating /home/sudhindra/aruco_ws/build/client/build/lib/client
+copying client/client_member_function.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+copying client/__init__.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+running install
+running install_lib
+creating /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+copying /home/sudhindra/aruco_ws/build/client/build/lib/client/client_member_function.py -> /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+copying /home/sudhindra/aruco_ws/build/client/build/lib/client/__init__.py -> /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+byte-compiling /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client/client_member_function.py to client_member_function.cpython-310.pyc
+byte-compiling /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/sudhindra/aruco_ws/install/client/share/ament_index
+creating /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index
+creating /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index/packages
+copying resource/client -> /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index/packages
+copying package.xml -> /home/sudhindra/aruco_ws/install/client/share/client
+running install_egg_info
+Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+server_executable = server.server_member_function:main
+

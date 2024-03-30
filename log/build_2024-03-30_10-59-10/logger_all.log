@@ -1,0 +1,170 @@
+[10.764s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[10.765s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x782d18865c60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x782d1880fa00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x782d1880fa00>>)
+[11.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[11.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[11.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[11.226s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[11.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[11.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[11.227s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sudhindra/aruco_ws'
+[11.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[11.227s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[11.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[11.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[11.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[11.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[11.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[11.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[11.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[11.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[11.308s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[11.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[11.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[11.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[11.317s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[11.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[11.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[11.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[11.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[11.318s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[11.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[11.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[11.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[11.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[11.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[11.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extensions ['ignore', 'ignore_ament_install']
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extension 'ignore'
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extension 'ignore_ament_install'
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extensions ['colcon_pkg']
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extension 'colcon_pkg'
+[11.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extensions ['colcon_meta']
+[11.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extension 'colcon_meta'
+[11.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extensions ['ros']
+[11.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/client) by extension 'ros'
+[11.379s] DEBUG:colcon.colcon_core.package_identification:Package 'src/client' with type 'ros.ament_python' and name 'client'
+[11.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[11.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[11.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[11.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[11.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[11.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[11.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[11.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[11.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[11.390s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[11.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extensions ['ignore', 'ignore_ament_install']
+[11.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extension 'ignore'
+[11.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extension 'ignore_ament_install'
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extensions ['colcon_pkg']
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extension 'colcon_pkg'
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extensions ['colcon_meta']
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extension 'colcon_meta'
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extensions ['ros']
+[11.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/server) by extension 'ros'
+[11.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/server' with type 'ros.ament_python' and name 'server'
+[11.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[11.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[11.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[11.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[11.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[12.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[12.047s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.356s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sudhindra/aruco_ws/install
+[12.417s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/sudhindra/erc_ws/install
+[12.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sudhindra/ros2_ws/install
+[12.568s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sudhindra/practice_ws/install
+[12.636s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[12.641s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[15.918s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[15.919s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[15.919s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[15.919s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[15.919s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sudhindra/aruco_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sudhindra/aruco_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/sudhindra/aruco_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[15.977s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_args' from command line to 'None'
+[15.977s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_target' from command line to 'None'
+[15.977s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[15.977s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_clean_cache' from command line to 'False'
+[15.978s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_clean_first' from command line to 'False'
+[15.978s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'cmake_force_configure' from command line to 'False'
+[15.978s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'ament_cmake_args' from command line to 'None'
+[15.978s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'catkin_cmake_args' from command line to 'None'
+[15.978s] Level 5:colcon.colcon_core.verb:set package 'client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[15.978s] DEBUG:colcon.colcon_core.verb:Building package 'client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sudhindra/aruco_ws/build/client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sudhindra/aruco_ws/install/client', 'merge_install': False, 'path': '/home/sudhindra/aruco_ws/src/client', 'symlink_install': False, 'test_result_base': None}
+[16.019s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_args' from command line to 'None'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_target' from command line to 'None'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_clean_cache' from command line to 'False'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_clean_first' from command line to 'False'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'cmake_force_configure' from command line to 'False'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'ament_cmake_args' from command line to 'None'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'catkin_cmake_args' from command line to 'None'
+[16.020s] Level 5:colcon.colcon_core.verb:set package 'server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[16.020s] DEBUG:colcon.colcon_core.verb:Building package 'server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sudhindra/aruco_ws/build/server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sudhindra/aruco_ws/install/server', 'merge_install': False, 'path': '/home/sudhindra/aruco_ws/src/server', 'symlink_install': False, 'test_result_base': None}
+[16.068s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[16.132s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[16.133s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sudhindra/aruco_ws/src/custom_interfaces' with build type 'ament_cmake'
+[16.133s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sudhindra/aruco_ws/src/custom_interfaces'
+[16.245s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[16.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sudhindra/aruco_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/aruco_ws/build/custom_interfaces -- -j4 -l4
+[18.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sudhindra/aruco_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/aruco_ws/build/custom_interfaces -- -j4 -l4
+[18.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sudhindra/aruco_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/aruco_ws/build/custom_interfaces
+[18.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sudhindra/aruco_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/aruco_ws/build/custom_interfaces
+[18.661s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[18.751s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces' for CMake module files
+[18.753s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces' for CMake config files
+[18.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[18.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[18.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[18.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[18.808s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces/lib'
+[18.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[18.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[18.842s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[18.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces/bin'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[18.843s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[18.844s] Level 1:colcon.colcon_core.environment:checking '/home/sudhindra/aruco_ws/install/custom_interfaces/bin'
+[18.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[18.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[18.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[18.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[18.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[18.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sudhindra/aruco_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[18.920s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.921s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[18.921s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.043s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.043s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.079s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhindra/aruco_ws/install/local_setup.ps1'
+[19.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sudhindra/aruco_ws/install/_local_setup_util_ps1.py'
+[19.160s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhindra/aruco_ws/install/setup.ps1'
+[19.232s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhindra/aruco_ws/install/local_setup.sh'
+[19.234s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sudhindra/aruco_ws/install/_local_setup_util_sh.py'
+[19.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhindra/aruco_ws/install/setup.sh'
+[19.304s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhindra/aruco_ws/install/local_setup.bash'
+[19.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhindra/aruco_ws/install/setup.bash'
+[19.373s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sudhindra/aruco_ws/install/local_setup.zsh'
+[19.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sudhindra/aruco_ws/install/setup.zsh'

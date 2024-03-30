@@ -1,0 +1,22 @@
+[4.751s] Invoking command in '/home/sudhindra/aruco_ws/src/client': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed
+[5.806s] running egg_info
+[5.809s] writing ../../build/client/client.egg-info/PKG-INFO
+[5.810s] writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+[5.810s] writing entry points to ../../build/client/client.egg-info/entry_points.txt
+[5.811s] writing requirements to ../../build/client/client.egg-info/requires.txt
+[5.811s] writing top-level names to ../../build/client/client.egg-info/top_level.txt
+[5.815s] reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.833s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.834s] running build
+[5.834s] running build_py
+[5.834s] copying client/client_member_function.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+[5.852s] running install
+[5.853s] running install_lib
+[5.854s] running install_data
+[5.858s] running install_egg_info
+[5.862s] removing '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info' (and everything under it)
+[5.863s] Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+[5.866s] running install_scripts
+[5.947s] Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+[5.955s] writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'
+[6.162s] Invoked command in '/home/sudhindra/aruco_ws/src/client' returned '0': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed

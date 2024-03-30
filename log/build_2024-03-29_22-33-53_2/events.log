@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.001154] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.001882] (client) JobQueued: {'identifier': 'client', 'dependencies': OrderedDict([('custom_interfaces', '/home/sudhindra/aruco_ws/install/custom_interfaces')])}
+[0.001988] (server) JobQueued: {'identifier': 'server', 'dependencies': OrderedDict([('custom_interfaces', '/home/sudhindra/aruco_ws/install/custom_interfaces')])}
+[0.002074] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.099466] (-) TimerEvent: {}
+[0.199885] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.400766] (-) TimerEvent: {}
+[0.501415] (-) TimerEvent: {}
+[0.602197] (-) TimerEvent: {}
+[0.702729] (-) TimerEvent: {}
+[0.728070] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.802863] (-) TimerEvent: {}
+[0.805417] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.807494] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sudhindra/aruco_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/sudhindra/aruco_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sudhindra/erc_ws/install:/home/sudhindra/ros2_ws/install:/home/sudhindra/practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-Inspiron-5558:@/tmp/.ICE-unix/1646,unix/sudhindra-Inspiron-5558:/tmp/.ICE-unix/1646'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df9ca9ca_5663_4adb_a820_589ea937069a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YE65K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/aruco_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sudhindra/practice_ws/install/test_1/lib/python3.10/site-packages:/home/sudhindra/ros2_ws/build/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/task_1/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/ep3/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/conversation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble')]), 'shell': False}
+[0.902996] (-) TimerEvent: {}
+[1.003403] (-) TimerEvent: {}
+[1.103763] (-) TimerEvent: {}
+[1.204186] (-) TimerEvent: {}
+[1.304611] (-) TimerEvent: {}
+[1.404975] (-) TimerEvent: {}
+[1.505305] (-) TimerEvent: {}
+[1.605655] (-) TimerEvent: {}
+[1.706067] (-) TimerEvent: {}
+[1.806464] (-) TimerEvent: {}
+[1.906866] (-) TimerEvent: {}
+[2.007184] (-) TimerEvent: {}
+[2.107502] (-) TimerEvent: {}
+[2.207841] (-) TimerEvent: {}
+[2.308165] (-) TimerEvent: {}
+[2.408484] (-) TimerEvent: {}
+[2.508801] (-) TimerEvent: {}
+[2.609116] (-) TimerEvent: {}
+[2.709430] (-) TimerEvent: {}
+[2.809758] (-) TimerEvent: {}
+[2.910056] (-) TimerEvent: {}
+[3.010377] (-) TimerEvent: {}
+[3.110781] (-) TimerEvent: {}
+[3.211338] (-) TimerEvent: {}
+[3.311781] (-) TimerEvent: {}
+[3.412426] (-) TimerEvent: {}
+[3.512773] (-) TimerEvent: {}
+[3.613154] (-) TimerEvent: {}
+[3.713759] (-) TimerEvent: {}
+[3.814279] (-) TimerEvent: {}
+[3.914711] (-) TimerEvent: {}
+[4.015096] (-) TimerEvent: {}
+[4.115684] (-) TimerEvent: {}
+[4.216187] (-) TimerEvent: {}
+[4.316540] (-) TimerEvent: {}
+[4.416992] (-) TimerEvent: {}
+[4.517373] (-) TimerEvent: {}
+[4.617945] (-) TimerEvent: {}
+[4.648513] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target custom_interfaces__cpp\n'}
+[4.718095] (-) TimerEvent: {}
+[4.818557] (-) TimerEvent: {}
+[4.918930] (-) TimerEvent: {}
+[5.019297] (-) TimerEvent: {}
+[5.119653] (-) TimerEvent: {}
+[5.216814] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[5.219769] (-) TimerEvent: {}
+[5.320202] (-) TimerEvent: {}
+[5.420617] (-) TimerEvent: {}
+[5.521042] (-) TimerEvent: {}
+[5.621362] (-) TimerEvent: {}
+[5.721750] (-) TimerEvent: {}
+[5.822078] (-) TimerEvent: {}
+[5.922474] (-) TimerEvent: {}
+[6.022885] (-) TimerEvent: {}
+[6.123199] (-) TimerEvent: {}
+[6.190161] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.223338] (-) TimerEvent: {}
+[6.323755] (-) TimerEvent: {}
+[6.424148] (-) TimerEvent: {}
+[6.524508] (-) TimerEvent: {}
+[6.557919] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.624642] (-) TimerEvent: {}
+[6.725002] (-) TimerEvent: {}
+[6.825415] (-) TimerEvent: {}
+[6.925819] (-) TimerEvent: {}
+[7.026254] (-) TimerEvent: {}
+[7.126674] (-) TimerEvent: {}
+[7.227260] (-) TimerEvent: {}
+[7.327714] (-) TimerEvent: {}
+[7.428337] (-) TimerEvent: {}
+[7.528973] (-) TimerEvent: {}
+[7.629380] (-) TimerEvent: {}
+[7.638600] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.641249] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[7.642438] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[7.643649] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[7.675769] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[7.680196] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[7.729526] (-) TimerEvent: {}
+[7.742754] (custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[7.829648] (-) TimerEvent: {}
+[7.929963] (-) TimerEvent: {}
+[8.030275] (-) TimerEvent: {}
+[8.130622] (-) TimerEvent: {}
+[8.193308] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[8.230755] (-) TimerEvent: {}
+[8.331193] (-) TimerEvent: {}
+[8.427839] (custom_interfaces) StdoutLine: {'line': b'[ 41%] Built target custom_interfaces__rosidl_generator_c\n'}
+[8.431323] (-) TimerEvent: {}
+[8.531707] (-) TimerEvent: {}
+[8.632046] (-) TimerEvent: {}
+[8.691989] (custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.732180] (-) TimerEvent: {}
+[8.832570] (-) TimerEvent: {}
+[8.866617] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[8.932686] (-) TimerEvent: {}
+[9.027036] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.032821] (-) TimerEvent: {}
+[9.133171] (-) TimerEvent: {}
+[9.185145] (custom_interfaces) StdoutLine: {'line': b'[ 70%] Built target custom_interfaces\n'}
+[9.233260] (-) TimerEvent: {}
+[9.333546] (-) TimerEvent: {}
+[9.381693] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__py\n'}
+[9.433671] (-) TimerEvent: {}
+[9.534027] (-) TimerEvent: {}
+[9.630792] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_generator_py\n'}
+[9.634146] (-) TimerEvent: {}
+[9.734550] (-) TimerEvent: {}
+[9.767732] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.834683] (-) TimerEvent: {}
+[9.935034] (-) TimerEvent: {}
+[9.938581] (custom_interfaces) StdoutLine: {'line': b'[ 93%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[10.035150] (-) TimerEvent: {}
+[10.135575] (-) TimerEvent: {}
+[10.224086] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[10.235707] (-) TimerEvent: {}
+[10.244855] (custom_interfaces) CommandEnded: {'returncode': 0}
+[10.335826] (-) TimerEvent: {}
+[10.355978] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[10.373800] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sudhindra/aruco_ws/build/custom_interfaces'], 'cwd': '/home/sudhindra/aruco_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sudhindra'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sudhindra'), ('OLDPWD', '/home/sudhindra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sudhindra/erc_ws/install:/home/sudhindra/ros2_ws/install:/home/sudhindra/practice_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sudhindra'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sudhindra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudhindra-Inspiron-5558:@/tmp/.ICE-unix/1646,unix/sudhindra-Inspiron-5558:/tmp/.ICE-unix/1646'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/df9ca9ca_5663_4adb_a820_589ea937069a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YE65K2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.100'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sudhindra/aruco_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sudhindra/practice_ws/install/test_1/lib/python3.10/site-packages:/home/sudhindra/ros2_ws/build/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/task_1/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/ep3/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/conversation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble')]), 'shell': False}
+[10.426362] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.435935] (-) TimerEvent: {}
+[10.448184] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[10.448684] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.449392] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[10.450485] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.450737] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.450876] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/video_frame.h\n'}
+[10.451026] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.451159] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__struct.h\n'}
+[10.451287] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.h\n'}
+[10.451417] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__functions.c\n'}
+[10.451544] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__functions.h\n'}
+[10.451682] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[10.451808] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[10.511276] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[10.512330] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.512933] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[10.513509] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.513961] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.514504] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.515062] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[10.516055] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.517173] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.517639] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.518009] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/video_frame.hpp\n'}
+[10.518418] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.518797] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__traits.hpp\n'}
+[10.519101] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__builder.hpp\n'}
+[10.519449] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__struct.hpp\n'}
+[10.519692] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.519831] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[10.519959] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.520101] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.520290] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.520418] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.520545] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[10.520776] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.521096] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.521227] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[10.521354] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.521481] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.521606] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.521732] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_introspection_c.h\n'}
+[10.521857] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.c\n'}
+[10.536050] (-) TimerEvent: {}
+[10.545748] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.547368] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[10.548110] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[10.548753] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[10.549258] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[10.549551] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.549914] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.cpp\n'}
+[10.550181] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.550859] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.551427] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[10.551839] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[10.552235] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[10.552561] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.552958] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.553341] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.553691] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.554128] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[10.554456] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.554816] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[10.555229] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_video_frame.py\n'}
+[10.555650] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_video_frame_s.c\n'}
+[10.556022] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[10.556542] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.556813] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.557085] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[10.557306] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.557521] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.557742] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[10.557993] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.628518] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[10.629266] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[10.636254] (-) TimerEvent: {}
+[10.640142] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.641281] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.642383] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.643404] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[10.644050] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/srv/VideoFrame.idl\n'}
+[10.645050] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/srv/VideoFrame.srv\n'}
+[10.647102] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/srv/VideoFrame_Request.msg\n'}
+[10.647291] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/srv/VideoFrame_Response.msg\n'}
+[10.647445] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[10.647593] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[10.647752] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[10.647904] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.648041] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[10.648174] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[10.648510] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[10.648661] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[10.648792] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[10.648955] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[10.649088] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[10.686820] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[10.709277] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.709655] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.736355] (-) TimerEvent: {}
+[10.742664] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.743119] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.743444] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.764107] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.764552] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.765019] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.765380] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.808659] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.809190] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.809694] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.809962] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.836527] (-) TimerEvent: {}
+[10.853442] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.854478] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.897522] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.898425] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.898898] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.899158] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.899680] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.899976] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.900140] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.900280] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.900414] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.900544] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[10.900675] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[10.900806] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[10.936705] (-) TimerEvent: {}
+[10.945609] (custom_interfaces) CommandEnded: {'returncode': 0}
+[11.036800] (-) TimerEvent: {}
+[11.137163] (-) TimerEvent: {}
+[11.237514] (-) TimerEvent: {}
+[11.337849] (-) TimerEvent: {}
+[11.438379] (-) TimerEvent: {}
+[11.539120] (-) TimerEvent: {}
+[11.639421] (-) TimerEvent: {}
+[11.739721] (-) TimerEvent: {}
+[11.840190] (-) TimerEvent: {}
+[11.940652] (-) TimerEvent: {}
+[11.953686] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[11.955207] (client) JobStarted: {'identifier': 'client'}
+[12.040857] (-) TimerEvent: {}
+[12.141344] (-) TimerEvent: {}
+[12.242050] (-) TimerEvent: {}
+[12.271030] (server) JobStarted: {'identifier': 'server'}
+[12.342251] (-) TimerEvent: {}
+[12.442619] (-) TimerEvent: {}
+[12.543070] (-) TimerEvent: {}
+[12.643581] (-) TimerEvent: {}
+[12.744241] (-) TimerEvent: {}
+[12.844973] (-) TimerEvent: {}
+[12.945366] (-) TimerEvent: {}
+[13.045722] (-) TimerEvent: {}
+[13.146047] (-) TimerEvent: {}
+[13.246394] (-) TimerEvent: {}
+[13.346907] (-) TimerEvent: {}
+[13.447444] (-) TimerEvent: {}
+[13.548213] (-) TimerEvent: {}
+[13.649525] (-) TimerEvent: {}
+[13.749924] (-) TimerEvent: {}
+[13.850282] (-) TimerEvent: {}
+[13.950638] (-) TimerEvent: {}
+[14.051061] (-) TimerEvent: {}
+[14.151442] (-) TimerEvent: {}
+[14.251974] (-) TimerEvent: {}
+[14.352454] (-) TimerEvent: {}
+[14.452847] (-) TimerEvent: {}
+[14.553246] (-) TimerEvent: {}
+[14.653603] (-) TimerEvent: {}
+[14.753961] (-) TimerEvent: {}
+[14.854434] (-) TimerEvent: {}
+[14.955081] (-) TimerEvent: {}
+[15.055520] (-) TimerEvent: {}
+[15.156134] (-) TimerEvent: {}
+[15.256673] (-) TimerEvent: {}
+[15.357175] (-) TimerEvent: {}
+[15.457616] (-) TimerEvent: {}
+[15.564701] (-) TimerEvent: {}
+[15.669005] (-) TimerEvent: {}
+[15.780992] (-) TimerEvent: {}
+[15.881422] (-) TimerEvent: {}
+[15.981863] (-) TimerEvent: {}
+[16.082356] (-) TimerEvent: {}
+[16.185074] (-) TimerEvent: {}
+[16.288974] (-) TimerEvent: {}
+[16.392975] (-) TimerEvent: {}
+[16.497124] (-) TimerEvent: {}
+[16.600973] (-) TimerEvent: {}
+[16.701403] (-) TimerEvent: {}
+[16.801842] (-) TimerEvent: {}
+[16.902287] (-) TimerEvent: {}
+[17.002642] (-) TimerEvent: {}
+[17.103067] (-) TimerEvent: {}
+[17.203575] (-) TimerEvent: {}
+[17.304258] (-) TimerEvent: {}
+[17.404615] (-) TimerEvent: {}
+[17.504973] (-) TimerEvent: {}
+[17.605289] (-) TimerEvent: {}
+[17.705677] (-) TimerEvent: {}
+[17.806249] (-) TimerEvent: {}
+[17.906669] (-) TimerEvent: {}
+[18.007253] (-) TimerEvent: {}
+[18.107614] (-) TimerEvent: {}
+[18.207953] (-) TimerEvent: {}
+[18.308293] (-) TimerEvent: {}
+[18.408640] (-) TimerEvent: {}
+[18.509089] (-) TimerEvent: {}
+[18.609892] (-) TimerEvent: {}
+[18.710308] (-) TimerEvent: {}
+[18.810767] (-) TimerEvent: {}
+[18.868835] (client) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/client', 'build', '--build-base', '/home/sudhindra/aruco_ws/build/client/build', 'install', '--record', '/home/sudhindra/aruco_ws/build/client/install.log', '--single-version-externally-managed'], 'cwd': '/home/sudhindra/aruco_ws/src/client', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sudhindra', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sudhindra', 'OLDPWD': '/home/sudhindra', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1673', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sudhindra/erc_ws/install:/home/sudhindra/ros2_ws/install:/home/sudhindra/practice_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sudhindra', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sudhindra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudhindra-Inspiron-5558:@/tmp/.ICE-unix/1646,unix/sudhindra-Inspiron-5558:/tmp/.ICE-unix/1646', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df9ca9ca_5663_4adb_a820_589ea937069a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YE65K2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sudhindra/aruco_ws/build/client', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/sudhindra/practice_ws/install/test_1/lib/python3.10/site-packages:/home/sudhindra/ros2_ws/build/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/task_1/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/ep3/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/conversation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/my_robot_bringup'}, 'shell': False}
+[18.881820] (server) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/server', 'build', '--build-base', '/home/sudhindra/aruco_ws/build/server/build', 'install', '--record', '/home/sudhindra/aruco_ws/build/server/install.log', '--single-version-externally-managed'], 'cwd': '/home/sudhindra/aruco_ws/src/server', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sudhindra', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sudhindra', 'OLDPWD': '/home/sudhindra', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1673', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sudhindra/erc_ws/install:/home/sudhindra/ros2_ws/install:/home/sudhindra/practice_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sudhindra', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sudhindra', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sudhindra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudhindra-Inspiron-5558:@/tmp/.ICE-unix/1646,unix/sudhindra-Inspiron-5558:/tmp/.ICE-unix/1646', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/df9ca9ca_5663_4adb_a820_589ea937069a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YE65K2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sudhindra/aruco_ws/build/server', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/sudhindra/practice_ws/install/test_1/lib/python3.10/site-packages:/home/sudhindra/ros2_ws/build/my_robot_controller:/home/sudhindra/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week1_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/week0_tutorials/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/task_1/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/sherlock/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/mrs_hudson/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/ep3/lib/python3.10/site-packages:/home/sudhindra/erc_ws/install/conversation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/sudhindra/aruco_ws/install/custom_interfaces:/home/sudhindra/ros2_ws/install/my_robot_bringup:/home/sudhindra/erc_ws/install/my_robot_bringup'}, 'shell': False}
+[18.913004] (-) TimerEvent: {}
+[19.016988] (-) TimerEvent: {}
+[19.120980] (-) TimerEvent: {}
+[19.224988] (-) TimerEvent: {}
+[19.325473] (-) TimerEvent: {}
+[19.425929] (-) TimerEvent: {}
+[19.526401] (-) TimerEvent: {}
+[19.626854] (-) TimerEvent: {}
+[19.727364] (-) TimerEvent: {}
+[19.827997] (-) TimerEvent: {}
+[19.937348] (-) TimerEvent: {}
+[20.040993] (-) TimerEvent: {}
+[20.094146] (server) StdoutLine: {'line': b'running egg_info\n'}
+[20.096396] (server) StdoutLine: {'line': b'writing ../../build/server/server.egg-info/PKG-INFO\n'}
+[20.096873] (server) StdoutLine: {'line': b'writing dependency_links to ../../build/server/server.egg-info/dependency_links.txt\n'}
+[20.097321] (server) StdoutLine: {'line': b'writing entry points to ../../build/server/server.egg-info/entry_points.txt\n'}
+[20.097690] (server) StdoutLine: {'line': b'writing requirements to ../../build/server/server.egg-info/requires.txt\n'}
+[20.098052] (server) StdoutLine: {'line': b'writing top-level names to ../../build/server/server.egg-info/top_level.txt\n'}
+[20.103377] (server) StdoutLine: {'line': b"reading manifest file '../../build/server/server.egg-info/SOURCES.txt'\n"}
+[20.105940] (server) StdoutLine: {'line': b"writing manifest file '../../build/server/server.egg-info/SOURCES.txt'\n"}
+[20.106388] (server) StdoutLine: {'line': b'running build\n'}
+[20.106670] (server) StdoutLine: {'line': b'running build_py\n'}
+[20.133769] (server) StdoutLine: {'line': b'running install\n'}
+[20.134742] (server) StdoutLine: {'line': b'running install_lib\n'}
+[20.148480] (-) TimerEvent: {}
+[20.168020] (server) StdoutLine: {'line': b'running install_data\n'}
+[20.186955] (server) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.196166] (server) StdoutLine: {'line': b"removing '/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.196732] (server) StdoutLine: {'line': b'Copying ../../build/server/server.egg-info to /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info\n'}
+[20.213125] (server) StdoutLine: {'line': b'running install_scripts\n'}
+[20.236250] (client) StdoutLine: {'line': b'running egg_info\n'}
+[20.238715] (client) StdoutLine: {'line': b'writing ../../build/client/client.egg-info/PKG-INFO\n'}
+[20.239442] (client) StdoutLine: {'line': b'writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt\n'}
+[20.240011] (client) StdoutLine: {'line': b'writing entry points to ../../build/client/client.egg-info/entry_points.txt\n'}
+[20.240403] (client) StdoutLine: {'line': b'writing requirements to ../../build/client/client.egg-info/requires.txt\n'}
+[20.240744] (client) StdoutLine: {'line': b'writing top-level names to ../../build/client/client.egg-info/top_level.txt\n'}
+[20.245433] (client) StdoutLine: {'line': b"reading manifest file '../../build/client/client.egg-info/SOURCES.txt'\n"}
+[20.249441] (-) TimerEvent: {}
+[20.268307] (server) StdoutLine: {'line': b'Installing server_executable script to /home/sudhindra/aruco_ws/install/server/lib/server\n'}
+[20.269297] (server) StdoutLine: {'line': b"writing list of installed files to '/home/sudhindra/aruco_ws/build/server/install.log'\n"}
+[20.284639] (client) StdoutLine: {'line': b"writing manifest file '../../build/client/client.egg-info/SOURCES.txt'\n"}
+[20.285095] (client) StdoutLine: {'line': b'running build\n'}
+[20.285415] (client) StdoutLine: {'line': b'running build_py\n'}
+[20.291916] (client) StdoutLine: {'line': b'running install\n'}
+[20.292616] (client) StdoutLine: {'line': b'running install_lib\n'}
+[20.328967] (client) StdoutLine: {'line': b'running install_data\n'}
+[20.331251] (client) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.337445] (client) StdoutLine: {'line': b"removing '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.338404] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 2] No such file or directory: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info/requires.txt'\n"}
+[20.339183] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 2] No such file or directory: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info/zip-safe'\n"}
+[20.339757] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 2] No such file or directory: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info/PKG-INFO'\n"}
+[20.340454] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 2] No such file or directory: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info/entry_points.txt'\n"}
+[20.340956] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 2] No such file or directory: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info/dependency_links.txt'\n"}
+[20.341235] (client) StderrLine: {'line': b"error removing /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info: [Errno 39] Directory not empty: '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info'\n"}
+[20.341573] (client) StdoutLine: {'line': b'Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info\n'}
+[20.345513] (server) CommandEnded: {'returncode': 0}
+[20.349707] (-) TimerEvent: {}
+[20.408618] (client) StdoutLine: {'line': b'running install_scripts\n'}
+[20.450520] (-) TimerEvent: {}
+[20.491609] (client) StdoutLine: {'line': b'Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client\n'}
+[20.502909] (client) StdoutLine: {'line': b"writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'\n"}
+[20.552533] (-) TimerEvent: {}
+[20.606278] (server) JobEnded: {'identifier': 'server', 'rc': 0}
+[20.639756] (client) CommandEnded: {'returncode': 0}
+[20.652802] (-) TimerEvent: {}
+[20.753459] (-) TimerEvent: {}
+[20.804088] (client) JobEnded: {'identifier': 'client', 'rc': 0}
+[20.805983] (-) EventReactorShutdown: {}

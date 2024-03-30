@@ -1,0 +1,37 @@
+[5.316s] Invoking command in '/home/sudhindra/aruco_ws/src/client': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed
+[5.869s] running egg_info
+[5.870s] creating ../../build/client/client.egg-info
+[5.870s] writing ../../build/client/client.egg-info/PKG-INFO
+[5.873s] writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+[5.873s] writing entry points to ../../build/client/client.egg-info/entry_points.txt
+[5.874s] writing requirements to ../../build/client/client.egg-info/requires.txt
+[5.874s] writing top-level names to ../../build/client/client.egg-info/top_level.txt
+[5.876s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.877s] reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.879s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.879s] running build
+[5.879s] running build_py
+[5.880s] creating /home/sudhindra/aruco_ws/build/client/build
+[5.880s] creating /home/sudhindra/aruco_ws/build/client/build/lib
+[5.880s] creating /home/sudhindra/aruco_ws/build/client/build/lib/client
+[5.881s] copying client/client_member_function.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+[5.881s] copying client/__init__.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+[5.881s] running install
+[5.881s] running install_lib
+[5.883s] creating /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+[5.883s] copying /home/sudhindra/aruco_ws/build/client/build/lib/client/client_member_function.py -> /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+[5.883s] copying /home/sudhindra/aruco_ws/build/client/build/lib/client/__init__.py -> /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+[5.885s] byte-compiling /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client/client_member_function.py to client_member_function.cpython-310.pyc
+[5.885s] byte-compiling /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client/__init__.py to __init__.cpython-310.pyc
+[5.886s] running install_data
+[5.887s] creating /home/sudhindra/aruco_ws/install/client/share/ament_index
+[5.887s] creating /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index
+[5.887s] creating /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index/packages
+[5.888s] copying resource/client -> /home/sudhindra/aruco_ws/install/client/share/ament_index/resource_index/packages
+[5.888s] copying package.xml -> /home/sudhindra/aruco_ws/install/client/share/client
+[5.888s] running install_egg_info
+[5.891s] Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+[5.893s] running install_scripts
+[5.934s] Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+[5.934s] writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'
+[5.999s] Invoked command in '/home/sudhindra/aruco_ws/src/client' returned '0': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed

@@ -1,0 +1,37 @@
+[5.004s] Invoking command in '/home/sudhindra/aruco_ws/src/server': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed
+[5.562s] running egg_info
+[5.563s] creating ../../build/server/server.egg-info
+[5.563s] writing ../../build/server/server.egg-info/PKG-INFO
+[5.571s] writing dependency_links to ../../build/server/server.egg-info/dependency_links.txt
+[5.572s] writing entry points to ../../build/server/server.egg-info/entry_points.txt
+[5.572s] writing requirements to ../../build/server/server.egg-info/requires.txt
+[5.572s] writing top-level names to ../../build/server/server.egg-info/top_level.txt
+[5.573s] writing manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[5.578s] reading manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[5.583s] writing manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[5.584s] running build
+[5.584s] running build_py
+[5.584s] creating /home/sudhindra/aruco_ws/build/server/build
+[5.584s] creating /home/sudhindra/aruco_ws/build/server/build/lib
+[5.584s] creating /home/sudhindra/aruco_ws/build/server/build/lib/server
+[5.585s] copying server/server_member_function.py -> /home/sudhindra/aruco_ws/build/server/build/lib/server
+[5.604s] copying server/__init__.py -> /home/sudhindra/aruco_ws/build/server/build/lib/server
+[5.604s] running install
+[5.605s] running install_lib
+[5.607s] creating /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server
+[5.607s] copying /home/sudhindra/aruco_ws/build/server/build/lib/server/server_member_function.py -> /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server
+[5.607s] copying /home/sudhindra/aruco_ws/build/server/build/lib/server/__init__.py -> /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server
+[5.609s] byte-compiling /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server/server_member_function.py to server_member_function.cpython-310.pyc
+[5.610s] byte-compiling /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server/__init__.py to __init__.cpython-310.pyc
+[5.610s] running install_data
+[5.612s] creating /home/sudhindra/aruco_ws/install/server/share/ament_index
+[5.612s] creating /home/sudhindra/aruco_ws/install/server/share/ament_index/resource_index
+[5.613s] creating /home/sudhindra/aruco_ws/install/server/share/ament_index/resource_index/packages
+[5.613s] copying resource/server -> /home/sudhindra/aruco_ws/install/server/share/ament_index/resource_index/packages
+[5.613s] copying package.xml -> /home/sudhindra/aruco_ws/install/server/share/server
+[5.613s] running install_egg_info
+[5.616s] Copying ../../build/server/server.egg-info to /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info
+[5.618s] running install_scripts
+[5.660s] Installing server_executable script to /home/sudhindra/aruco_ws/install/server/lib/server
+[5.660s] writing list of installed files to '/home/sudhindra/aruco_ws/build/server/install.log'
+[5.828s] Invoked command in '/home/sudhindra/aruco_ws/src/server' returned '0': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed

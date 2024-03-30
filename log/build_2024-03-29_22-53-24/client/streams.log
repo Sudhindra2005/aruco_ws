@@ -1,0 +1,24 @@
+[4.417s] Invoking command in '/home/sudhindra/aruco_ws/src/client': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed
+[5.162s] running egg_info
+[5.164s] writing ../../build/client/client.egg-info/PKG-INFO
+[5.165s] writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+[5.165s] writing entry points to ../../build/client/client.egg-info/entry_points.txt
+[5.166s] writing requirements to ../../build/client/client.egg-info/requires.txt
+[5.166s] writing top-level names to ../../build/client/client.egg-info/top_level.txt
+[5.175s] reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.177s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[5.177s] running build
+[5.178s] running build_py
+[5.180s] copying client/client_member_function.py -> /home/sudhindra/aruco_ws/build/client/build/lib/client
+[5.180s] running install
+[5.181s] running install_lib
+[5.182s] copying /home/sudhindra/aruco_ws/build/client/build/lib/client/client_member_function.py -> /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client
+[5.186s] byte-compiling /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client/client_member_function.py to client_member_function.cpython-310.pyc
+[5.188s] running install_data
+[5.190s] running install_egg_info
+[5.195s] removing '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info' (and everything under it)
+[5.196s] Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+[5.199s] running install_scripts
+[5.269s] Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+[5.271s] writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'
+[5.351s] Invoked command in '/home/sudhindra/aruco_ws/src/client' returned '0': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed

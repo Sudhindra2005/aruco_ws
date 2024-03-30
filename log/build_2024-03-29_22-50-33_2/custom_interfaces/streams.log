@@ -1,0 +1,91 @@
+[0.714s] Invoking command in '/home/sudhindra/aruco_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/aruco_ws/build/custom_interfaces -- -j4 -l4
+[5.726s] [  3%] Built target custom_interfaces__cpp
+[5.789s] [  3%] Built target ament_cmake_python_copy_custom_interfaces
+[6.426s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[6.522s] [ 22%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[6.577s] [ 32%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.590s] [ 41%] Built target custom_interfaces__rosidl_typesupport_cpp
+[6.788s] [ 51%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[6.789s] [ 70%] Built target custom_interfaces__rosidl_typesupport_c
+[6.793s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[6.884s] [ 70%] Built target custom_interfaces
+[7.046s] [ 74%] Built target custom_interfaces__py
+[7.506s] running egg_info
+[7.508s] writing custom_interfaces.egg-info/PKG-INFO
+[7.510s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[7.510s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[7.583s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[7.616s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[7.676s] [ 74%] Built target ament_cmake_python_build_custom_interfaces_egg
+[7.722s] [ 80%] Built target custom_interfaces__rosidl_generator_py
+[7.863s] [ 87%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[7.870s] [ 93%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.879s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.898s] Invoked command in '/home/sudhindra/aruco_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --build /home/sudhindra/aruco_ws/build/custom_interfaces -- -j4 -l4
+[8.035s] Invoking command in '/home/sudhindra/aruco_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/aruco_ws/build/custom_interfaces
+[8.090s] -- Install configuration: ""
+[8.139s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[8.139s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.161s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.161s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.162s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.162s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/video_frame.h
+[8.162s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.172s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__struct.h
+[8.172s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.h
+[8.173s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__functions.c
+[8.173s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__functions.h
+[8.173s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[8.173s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[8.230s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.232s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_fastrtps_c.h
+[8.274s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.275s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.276s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.276s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/video_frame.hpp
+[8.276s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.277s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__traits.hpp
+[8.277s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__builder.hpp
+[8.277s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__struct.hpp
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.278s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[8.279s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[8.331s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.331s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.331s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[8.332s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.332s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.332s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.333s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_introspection_c.h
+[8.333s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.c
+[8.354s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[8.364s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[8.365s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[8.365s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[8.365s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[8.366s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__rosidl_typesupport_introspection_cpp.hpp
+[8.366s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/video_frame__type_support.cpp
+[8.431s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.454s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[8.455s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[8.456s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[8.456s] -- Up-to-date: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[8.456s] -- Installing: /home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.457s] [31mCMake Error at cmake_install.cmake:251 (file):
+[8.457s]   file INSTALL cannot copy file
+[8.457s]   "/home/sudhindra/aruco_ws/build/custom_interfaces/ament_cmake_python/custom_interfaces/custom_interfaces.egg-info/top_level.txt"
+[8.457s]   to
+[8.457s]   "/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt":
+[8.458s]   No such file or directory.
+[8.458s] 
+[8.458s] [0m
+[8.459s] Invoked command in '/home/sudhindra/aruco_ws/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sudhindra/aruco_ws/install/server:/home/sudhindra/aruco_ws/install/client:/home/sudhindra/practice_ws/install/test_1:/home/sudhindra/ros2_ws/install/my_robot_controller:/home/sudhindra/erc_ws/install/week1_tutorials:/home/sudhindra/erc_ws/install/week0_tutorials:/home/sudhindra/erc_ws/install/task_1:/home/sudhindra/erc_ws/install/sherlock:/home/sudhindra/erc_ws/install/mrs_hudson:/home/sudhindra/erc_ws/install/ep3:/home/sudhindra/erc_ws/install/conversation:/opt/ros/humble /usr/bin/cmake --install /home/sudhindra/aruco_ws/build/custom_interfaces

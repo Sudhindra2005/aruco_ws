@@ -1,0 +1,21 @@
+[2.744s] Invoking command in '/home/sudhindra/aruco_ws/src/client': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed
+[3.296s] running egg_info
+[3.298s] writing ../../build/client/client.egg-info/PKG-INFO
+[3.298s] writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+[3.299s] writing entry points to ../../build/client/client.egg-info/entry_points.txt
+[3.299s] writing requirements to ../../build/client/client.egg-info/requires.txt
+[3.299s] writing top-level names to ../../build/client/client.egg-info/top_level.txt
+[3.302s] reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[3.304s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[3.304s] running build
+[3.305s] running build_py
+[3.305s] running install
+[3.305s] running install_lib
+[3.308s] running install_data
+[3.310s] running install_egg_info
+[3.312s] removing '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info' (and everything under it)
+[3.313s] Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+[3.316s] running install_scripts
+[3.355s] Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+[3.356s] writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'
+[3.419s] Invoked command in '/home/sudhindra/aruco_ws/src/client' returned '0': AMENT_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sudhindra/aruco_ws/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:/home/sudhindra/aruco_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed

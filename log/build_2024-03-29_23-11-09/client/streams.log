@@ -1,0 +1,21 @@
+[3.700s] Invoking command in '/home/sudhindra/aruco_ws/src/client': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed
+[4.664s] running egg_info
+[4.666s] writing ../../build/client/client.egg-info/PKG-INFO
+[4.667s] writing dependency_links to ../../build/client/client.egg-info/dependency_links.txt
+[4.667s] writing entry points to ../../build/client/client.egg-info/entry_points.txt
+[4.667s] writing requirements to ../../build/client/client.egg-info/requires.txt
+[4.668s] writing top-level names to ../../build/client/client.egg-info/top_level.txt
+[4.674s] reading manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[4.676s] writing manifest file '../../build/client/client.egg-info/SOURCES.txt'
+[4.676s] running build
+[4.677s] running build_py
+[4.677s] running install
+[4.678s] running install_lib
+[4.682s] running install_data
+[4.685s] running install_egg_info
+[4.690s] removing '/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info' (and everything under it)
+[4.691s] Copying ../../build/client/client.egg-info to /home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages/client-0.0.0-py3.10.egg-info
+[4.694s] running install_scripts
+[4.763s] Installing client_execuatble script to /home/sudhindra/aruco_ws/install/client/lib/client
+[4.764s] writing list of installed files to '/home/sudhindra/aruco_ws/build/client/install.log'
+[4.843s] Invoked command in '/home/sudhindra/aruco_ws/src/client' returned '0': PYTHONPATH=/home/sudhindra/aruco_ws/build/client/prefix_override:/home/sudhindra/aruco_ws/install/client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/client build --build-base /home/sudhindra/aruco_ws/build/client/build install --record /home/sudhindra/aruco_ws/build/client/install.log --single-version-externally-managed

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/VideoFrame.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module custom_interfaces {
+  module srv {
+    struct VideoFrame_Request {
+      sensor_msgs::msg::Image image;
+    };
+    struct VideoFrame_Response {
+      sequence<float> corners;
+
+      sequence<float> ids;
+    };
+  };
+};

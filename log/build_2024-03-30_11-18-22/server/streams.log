@@ -1,0 +1,24 @@
+[3.215s] Invoking command in '/home/sudhindra/aruco_ws/src/server': PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed
+[3.953s] running egg_info
+[3.954s] writing ../../build/server/server.egg-info/PKG-INFO
+[3.955s] writing dependency_links to ../../build/server/server.egg-info/dependency_links.txt
+[3.955s] writing entry points to ../../build/server/server.egg-info/entry_points.txt
+[3.956s] writing requirements to ../../build/server/server.egg-info/requires.txt
+[3.956s] writing top-level names to ../../build/server/server.egg-info/top_level.txt
+[3.959s] reading manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[3.960s] writing manifest file '../../build/server/server.egg-info/SOURCES.txt'
+[3.961s] running build
+[3.961s] running build_py
+[3.962s] copying server/server_member_function.py -> /home/sudhindra/aruco_ws/build/server/build/lib/server
+[3.962s] running install
+[3.962s] running install_lib
+[3.965s] copying /home/sudhindra/aruco_ws/build/server/build/lib/server/server_member_function.py -> /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server
+[3.965s] byte-compiling /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server/server_member_function.py to server_member_function.cpython-310.pyc
+[3.968s] running install_data
+[3.968s] running install_egg_info
+[3.977s] removing '/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info' (and everything under it)
+[3.977s] Copying ../../build/server/server.egg-info to /home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages/server-0.0.0-py3.10.egg-info
+[3.978s] running install_scripts
+[4.016s] Installing server_executable script to /home/sudhindra/aruco_ws/install/server/lib/server
+[4.017s] writing list of installed files to '/home/sudhindra/aruco_ws/build/server/install.log'
+[4.071s] Invoked command in '/home/sudhindra/aruco_ws/src/server' returned '0': PYTHONPATH=/home/sudhindra/aruco_ws/build/server/prefix_override:/home/sudhindra/aruco_ws/install/server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/server build --build-base /home/sudhindra/aruco_ws/build/server/build install --record /home/sudhindra/aruco_ws/build/server/install.log --single-version-externally-managed
